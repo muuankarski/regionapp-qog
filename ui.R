@@ -157,9 +157,29 @@ tabPanel("Parallel coordinates",
 
 tabPanel("About",
          
+         
+         
+         h3("Created by"),
+         tags$a(href="http://markuskainu.fi","Markus Kainu"),
+         tags$br(),
+         tags$a(href="http://twitter.com/muuankarski","@muuankarski"),
+         
+         h3("Documentation"),
+         tags$a("For further details of underlying data see",href="http://ropengov.github.io/rqog/vignettes/rqog_tutorial.html","rqog-packages vignette."),
+         tags$br(),
+         tags$a("rqog-package is being developed within",href="http://ropengov.github.io","rOpenGov-project."),
+
          h3("Source code"),
-         tags$a(href="https://github.com/muuankarski/regionapp-rus", "Source code available at Github"),
-         h3("Licencing")
+         tags$a(href="https://github.com/muuankarski/regionapp-qog", "Source code available at Github"),
+         
+         h3("Licencing"),
+         
+         tags$a(href="http://creativecommons.org/licenses/by/4.0/","This work is licensed under a"),
+         tags$img(src="https://i.creativecommons.org/l/by/4.0/88x31.png"),
+         tags$a(href="http://creativecommons.org/licenses/by/4.0/","Creative Commons Attribution 4.0 International License")
+         
+         #tagsimg alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />
+         
          
          
 )
